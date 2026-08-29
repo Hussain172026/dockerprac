@@ -1,0 +1,4 @@
+FROM almalinux:9.0
+RUN adduser Imam
+USER Imam
+CMD [ "sleep", "100" ]
