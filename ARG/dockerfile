@@ -1,3 +1,5 @@
 ARG version
 FROM almalinux:${version:-8}
+ARG course
+ARG name
 CMD [ "sleep", "150" ]
