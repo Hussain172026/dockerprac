@@ -2,5 +2,6 @@ ARG version
 FROM almalinux:${version:-8}
 ARG course=Devops
 ARG name=Imam
-ENV Duration=150HRS
+ARG Duration=150HRS
+ENV Duration=${Duration}
 CMD [ "sleep", "150" ]
