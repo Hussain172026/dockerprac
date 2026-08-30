@@ -1,5 +1,5 @@
 ARG version
 FROM almalinux:${version:-8}
-ARG course
-ARG name
+ARG course=Devops
+ARG name=Imam
 CMD [ "sleep", "150" ]
